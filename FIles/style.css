@@ -91,10 +91,6 @@ div{
     display: none;
 }
 
-#menu-btn:{
-    background-color: #e9e9e9;
-}
-
 
 
 
@@ -132,6 +128,7 @@ div{
     border-top: var(--border);
     background-color: #e9e9e9;
     padding: 2rem;
+    transition: .2s linear;
     clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
    }
 
