@@ -84,7 +84,6 @@ div{
     color: var(--main-color);
 }
 
-
 #menu-btn{
     cursor: pointer;
     font-size: 2rem;
@@ -92,10 +91,65 @@ div{
     display: none;
 }
 
-
 a:hover{
     color: var(--main-color);
 }
+
+.footer{
+    background-color: #1d1b1b;
+    /* background-image: url(../Images/Background-4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 2rem;
+    color: var(--white);
+}
+
+.footer .box-container .box{
+    border-bottom: var(--light-bg);
+    /* max-width: 30rem; */
+}
+
+.footer .box-container .box h2{
+    color: var(--white);
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: solid 2px var(--light-white);
+}
+
+.footer .box-container .box a{
+    color: var(--light-white);
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    display: block;
+}
+
+.footer .box-container .box a i{
+    font-weight: 900;
+    color: var(--main-color);
+    padding-right: 0.5rem;
+    transition: 0.2s linear;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
