@@ -166,7 +166,7 @@ a:hover{
 
 
 @media (max-width:1200px){
-    section{
+    div{
         padding: 3rem 5%;
     }
 }
@@ -175,7 +175,7 @@ a:hover{
     html{
         font-size: 55%;
     }
-    section{
+    div{
         padding: 3rem 2rem;
     }
 }
@@ -211,7 +211,7 @@ a:hover{
     html{
         font-size: 55%;
     }
-    section{
+    div{
         padding: 3rem 2rem;
     }
 }
