@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
     <div class="header">
@@ -25,6 +27,57 @@
 
     </div>
 
+    <!-- Swiper -->
+  <section class="swiper mySwiper">
+    <section class="swiper-wrapper">
+
+      <section class="swiper-slide">
+        <img src="./Images/slide-1.jpg" alt="">
+      </section>
+
+      <section class="swiper-slide">
+        <img src="./Images/slide-2.jpg" alt="">
+      </section>
+
+      <section class="swiper-slide">
+        <img src="./Images/slide-3.jpg" alt="">
+      </section>
+
+      <section class="swiper-slide">
+        <img src="./Images/slide-4.jpg" alt="">
+      </section>
+
+    </section>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+   </section>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+      slidesPerView: 1,
+      spaceBetween: 10,
+    });
+  </script>
+
+  <!-- Swiper -->
+
+
+    <div class="Discover-btn">
+        <a href="./Files/package.html">Discover more</a>
+    </div>
 
     <div class="services">
         <h1 class="heading">Our Services</h1>
