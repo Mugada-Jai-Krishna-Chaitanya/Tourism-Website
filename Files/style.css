@@ -107,6 +107,7 @@ a:hover{
     background-position: center;
     background-size: cover;
     background-attachment: fixed; */
+    padding: 0;
 }
 
 .footer .box-container{
@@ -163,6 +164,8 @@ a:hover{
 }
 
 .services{
+    padding-top: 10rem;
+
     text-align: center;
     font-size: 1.5rem;
     /* background-color: #6c0598; */
@@ -208,27 +211,29 @@ a:hover{
     transform: scale(1.5);
   }
 
-.Discover-btn{
+#Discover-btn{
+    /* padding-top: rem; */
     padding-bottom: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
+    font-size: 3.3rem;
     text-align: center;
 }
 
-.Discover-btn a{
+#Discover-btn a{
     background-color: var(--main-color);
     color: #cfc8c8;
     border-radius: 10px;
     padding: 2rem;
 }
 
-.Discover-btn a:hover{
+#Discover-btn a:hover{
     background-color: #a03eca;
 }
 
 .home-about{
+    padding-top: 10rem;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -267,21 +272,58 @@ a:hover{
     border-radius: 5px;
 }
 
+.home-packages{
+    padding: 3rem;
+    padding-top: 10rem;
+    /* padding-top: 5rem; */
+}
+
 .home-about .content a:hover{
     background-color: #a03eca;
 }
 
+.home-packages .box-container{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    gap: 3rem;
 
+}
 
+.home-packages .box-container .box a{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #1d1b1b;
+    color: #cfc8c8;
+}
 
+.home-packages .box-container .box{
+    padding-left: 2.5rem;
+    /* border: black solid 1px; */
+}
 
+.home-packages .box-container .box img{
+    height: 100%;
+    overflow: hidden;
+    border: black solid 2px;
+    width: 100%;
+}
 
+.home-packages .box-container .box .content h3{
+    font-size: 2rem;
+}
 
+.home-packages .box-container .box .content p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
 
-
-
-
-
+.home-packages h1{
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
 
 
 
