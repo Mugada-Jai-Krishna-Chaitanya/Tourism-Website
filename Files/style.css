@@ -151,6 +151,7 @@ a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
     gap: 2rem;
+  /* align-items: stretch; */
 }
 
 .services .box-container .box h3{
@@ -165,7 +166,7 @@ a:hover{
 
 .services{
     padding-top: 10rem;
-
+  /* align-items: stretch; */
     text-align: center;
     font-size: 1.5rem;
     /* background-color: #6c0598; */
@@ -272,66 +273,59 @@ a:hover{
     border-radius: 5px;
 }
 
-.home-packages{
-    padding: 3rem;
-    padding-top: 10rem;
-    /* padding-top: 5rem; */
-}
 
 .home-about .content a:hover{
     background-color: #a03eca;
 }
 
-.home-packages .box-container{
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
-    gap: 3rem;
 
+
+#containers{
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    gap: 2%; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    align-content: start;
+    padding-bottom: 5rem;
 }
 
-.home-packages .box-container .box a{
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3) {
+width: 31%;
+height: 31%;
+border: solid black 2px;
+padding-bottom: 2rem;
+}
+
+#containers .item img{
+    width: 100%;
+    height: 100%;
+} 
+
+#containers .item p{
+    padding-left: 2rem;
+    text-align: start;
+    padding-bottom: 3rem;
+}
+
+#containers .item .content a{
     padding: 1rem;
     font-size: 2rem;
     background-color: #1d1b1b;
     color: #cfc8c8;
 }
 
-.home-packages .box-container .box{
-    padding-left: 2.5rem;
-    /* border: black solid 1px; */
-}
-
-.home-packages .box-container .box img{
-    height: 100%;
-    overflow: hidden;
-    border: black solid 2px;
-    width: 100%;
-}
-
-.home-packages .box-container .box .content h3{
-    font-size: 2rem;
-}
-
-.home-packages .box-container .box .content p{
-    font-size: 1.4rem;
-    padding-top: 1rem;
+#packages-heading{
+    font-size: 2.5rem;
+    padding-top: 15rem;
     padding-bottom: 3rem;
-}
-
-.home-packages h1{
-    padding-bottom: 3rem;
-    font-size: 3rem;
     text-align: center;
 }
-
-
-
-
-
-
-
-
 
 
 
