@@ -343,25 +343,79 @@ a:hover{
 
 
 .about{
-    
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image{
+    flex: 1 1 41rem;
+
+}
+
+.about .image img{
+    width: 100%;
 }
 
 
+.about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+    padding: 0;
+}
 
 
+.about .content h3{
+    font-size: 1.7rem;
+    padding: 0;
+}
 
+.about .content p{
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 1rem 0;
+}
 
+.about .content .icon-container{
+    /* margin-top: 1rem; */
+    display: flex;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* align-content: center; */
+}
 
+.about .content .icon-container .icons{
+    /* width: 32%; */
+    /* height: 32%; */
+    background-color: var(--main-color);
+    border-radius: 5%;
+    /* padding-right: 5%; */
+    flex: 1 1 15rem;
+    transition: 0.3s;
+}
 
+.about .content .icon-container .icons i{
+    display: block;
+    color: #cfc8c8;
+    padding-bottom: 1.3rem;
+    font-size: 1.7rem;
+}
 
+.about .content .icon-container .icons span{
+    color: #cfc8c8;
+    font-size: 1rem;
+    /* padding-top: 3rem; */
 
+}
 
-
-
-
-
-
-
+.about .content .icon-container .icons:hover{
+    background-color: #a03eca;
+    transform: scale(1.09);
+}
 
 
 
