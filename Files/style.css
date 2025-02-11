@@ -580,17 +580,47 @@ a:hover{
     transition: 0.5s;
 }
 
+.booking .book-form{
+    padding: 2rem;
+    background-color: var(--light-bg);
+}
 
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+    font-size: 2rem;
+}
 
+.booking div{
+    padding: 0;
+}
 
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    color: var(--light-black);
+    border: 1px solid black;
+}
 
+.btn{
+    cursor: pointer;
+    text-align: center;
+    padding: 1.4rem;
+    color: var(--white);
+    background-color: #6c0598;
+}
 
-
-
-
-
-
+.booking .heading-title{
+    text-align: center;
+    padding-top: 9rem;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
 
 
 
