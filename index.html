@@ -12,6 +12,155 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <style>
+
+#Discover-btn {
+    padding: 4rem 0;
+}
+
+#Discover-btn a {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(108, 5, 152, 0.3);
+}
+
+.home-about {
+    padding: 8rem 10%;
+    gap: 4rem;
+    background-color: #f8f8f8;
+}
+
+.home-about .image {
+    padding: 0;
+}
+
+.home-about .image img {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-about .content {
+    padding: 4rem;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-about .content h3 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
+
+.home-about .content p {
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    color: var(--light-black);
+}
+
+.services {
+    padding: 8rem 10%;
+    background-color: #f8f8f8;
+}
+
+.services .heading {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    color: var(--main-color);
+}
+
+.services .box-container {
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.services .box-container .box {
+    padding: 3rem 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(108, 5, 152, 0.2);
+}
+
+.services .box-container .box img {
+    max-width: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.services .box-container .box h3 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+#packages-heading {
+    font-size: 3rem;
+    padding: 6rem 0 4rem 0;
+    color: var(--main-color);
+}
+
+#containers {
+    padding: 0 10% 5rem 10%;
+    gap: 3rem;
+}
+
+#containers .item {
+    flex: 1 1 calc(33.333% - 3rem);
+    min-width: 300px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+#containers .item:hover {
+    transform: translateY(-5px);
+}
+
+#containers .item img {
+    transition: all 0.3s ease;
+}
+
+#containers .item img:hover {
+    transform: scale(1.05);
+}
+
+#containers .item .content {
+    padding: 2rem;
+}
+
+#containers .item .content h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--main-color);
+}
+
+#containers .item .content p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: var(--light-black);
+}
+
+#containers .item .content a {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .home-about {
+        padding: 6rem 5%;
+    }
+    
+    .services .box-container {
+        gap: 2rem;
+    }
+    
+    #containers .item {
+        flex: 1 1 100%;
+    }
+}</style>
+
 </head>
 <body>
     <div class="header">
